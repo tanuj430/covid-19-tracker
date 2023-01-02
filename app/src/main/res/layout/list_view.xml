@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="states"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cases"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingRight="10dp"
+            android:textColor="@color/dark_red"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/active"
+            android:layout_height="wrap_content"
+            android:text="active"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingRight="10dp"
+            android:textColor="@color/dark_green"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="recover"
+            android:id="@+id/recover"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:paddingRight="10dp"
+            android:textColor="@color/dark_blue"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/dead"
+            android:layout_height="wrap_content"
+            android:text="dead"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/dark_yellow"
+            />
+        >
+    </LinearLayout>
+
+
+</LinearLayout>
